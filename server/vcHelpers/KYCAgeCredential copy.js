@@ -6,9 +6,9 @@ module.exports = {
     circuitId: "credentialAtomicQuerySigV2",
     query: {
       allowedIssuers: ["*"],
-      type: "KYC",
+      type: "KYCAgeCredential",
       context:
-        "ipfs://Qmc69i1qsWKv9jgTBR162ifQfTHh5osgDgp3wzte8DDGtR",
+        "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld",
       credentialSubject,
     },
   }),
