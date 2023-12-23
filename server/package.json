@@ -4,6 +4,7 @@
   "description": "Polygon ID Verifiable Credential (VC) verifier",
   "main": "index.js",
   "scripts": {
+    "build": "echo 'hello build'"
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
